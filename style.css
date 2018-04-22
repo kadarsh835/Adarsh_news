@@ -1,0 +1,115 @@
+.modal-body
+{
+	overflow-x: auto;
+}
+.container-fluid {
+    padding-right: 225px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#myImg
+{
+	opacity:1;
+	border-radius: 5 px;
+	width:100%;
+	height:auto;
+	transition:1s;
+	background-size:cover;
+}
+#myImg:hover
+{
+	opacity : 1;
+}
+#abhishek_chutiya
+{
+	margin-left:200px;
+	margin-right:20px;
+}
+.class2
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+.sidenav {
+	height:100%;
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    top:50px;
+    left:0px;
+    background: #eee;
+	background-color:#111;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 16px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#id1
+{
+	margin-top:45px;
+	margin-left:150px;
+}
+
+#id3
+{
+	font-size:21px;
+}
+#id4
+{
+	font-size:14px;
+}
+.class1
+{
+	margin-left:0px;
+	border-top:5px dashed white;
+	border-left:10px solid red;
+	border-bottom:5px dashed white;
+	background-color:#caa8a8;
+	overflow-wrap:break-word;
+	padding: 3%;
+	float:middle;
+}
+.class2
+{
+	background-image: url('note.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+#backgroundimage
+{
+   height: 100%;
+   left: 0;
+   margin-left:70%;
+   margin-right:20px;
+   min-height: 20%;
+   min-width: 0px;
+   padding: 2%;
+   position: fixed;
+   top: 0;
+   width: 40%;
+   z-index: -1;
+}
+.main {
+	margin-top:20px;
+    margin-left: 150px;
+    font-size: 28px;
+    padding: 0px 10px;
+	margin-right:20px;
+}
